@@ -1,2 +1,2 @@
 # peruzzo-schardosin
-Peruzzo &amp; Schardosin Advogadas Associadas
+Peruzzo &amp; Schardosin Advogados Associados
