@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #ae6c59;
 }
 
 a {
@@ -469,7 +469,7 @@ a:hover {
   font-size: 28px;
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 
@@ -478,12 +478,16 @@ a:hover {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 900px;
 }
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
   padding: 12px 0;
+}
+
+#container_navbar {
+  height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -743,6 +747,10 @@ a:hover {
   display: block;
 }
 
+.nav-link {
+  font-size: 1.2rem !important;
+}
+
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -758,7 +766,7 @@ a:hover {
 }
 
 .hero .overlay-itro {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
   left: 0px;
@@ -769,7 +777,7 @@ a:hover {
 }
 
 .hero .hero-title {
-  color: #fff;
+  color: #ae6c59;
   font-weight: 600;
   font-size: 3rem;
 }
