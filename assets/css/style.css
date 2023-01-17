@@ -447,16 +447,115 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #8ddbcb;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #fff;
+  padding: 0;
+}
+
+#topbar:hover {
+  background: #ec6a52;
+}
+
+#topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+#topbar .social-links a:hover {
+  color: white;
+}
+
+
+# Top Bar
+--------------------------------------------------------------*/
+#topbar {
+  background: #8ddbcb;
+  height: 40px;
+  font-size: 14px;
+  transition: all 0.5s;
+  color: #fff;
+  padding: 0;
+}
+
+#topbar:hover {
+  background: #ec6a52;
+}
+
+#topbar .contact-info i {
+  font-style: normal;
+  color: #fff;
+}
+
+#topbar .contact-info i a,
+#topbar .contact-info i span {
+  padding-left: 5px;
+  color: #fff;
+}
+
+#topbar .contact-info i a {
+  line-height: 0;
+  transition: 0.3s;
+  transition: 0.3s;
+}
+
+#topbar .contact-info i a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+#topbar .social-links a {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 0;
+  transition: 0.3s;
+  margin-left: 20px;
+}
+
+#topbar .social-links a:hover {
+  color: white;
+}
+
+
+/*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  transition: all 0.5s;
+  transition: all 0.1s;
   z-index: 997;
-  padding: 50px 0;
+  padding: 0px 0;
 }
 
 #header .logo {
-  font-size: 28px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   font-weight: 400;
@@ -473,12 +572,15 @@ a:hover {
 
 #header.header-scrolled {
   background: rgba(0, 0, 0, 0.9);
-  padding: 12px 0;
+  padding: 1px 0;
 }
 
 #container_navbar {
-  height: 100px;
+  height: auto;
+  width: auto;
 }
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -486,9 +588,9 @@ a:hover {
 /**
 * Desktop Navigation 
 */
-.navbar {
+/* .navbar {
   padding-left: 15%;
-}
+} */
 
 .navbar ul {
   margin: 0;
@@ -504,7 +606,7 @@ a:hover {
 
 .navbar>ul>li {
   white-space: nowrap;
-  padding: 10px 0 10px 30px;
+  padding: 10px 10px 10px 54px;
 }
 
 .navbar a,
