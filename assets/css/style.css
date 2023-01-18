@@ -591,6 +591,7 @@ a:hover {
   z-index: 997;
   height: 115px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  overflow: unset;
 }
 
 #header_sobre .logo {
@@ -974,6 +975,7 @@ width: auto;
 .about-mf .box-shadow-full {
   padding-top: 4rem;
   padding-bottom: 4rem;
+  margin-top: 7rem;
 }
 
 .sect-pt4 {
@@ -983,6 +985,8 @@ width: auto;
 .about-mf .box-shadow-full {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .about-mf .about-img {
@@ -990,9 +994,12 @@ width: auto;
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
+  margin-left: 0px;
 }
 
+.img-fluid {
+  max-width: 265%;
+}
 @media (min-width: 767px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
