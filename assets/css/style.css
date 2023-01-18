@@ -120,15 +120,15 @@ a:hover {
 
 /*--/ Sections /--*/
 .sect-4 {
-  padding: 4rem 0;
+  padding: 8rem 0;
 }
 
 .sect-pt4 {
-  padding-top: 4rem;
+  padding-top: 8rem;
 }
 
 .sect-mt4 {
-  margin-top: 4rem;
+  margin-top: 8rem;
 }
 
 /*--/ Title s /--*/
@@ -581,6 +581,43 @@ a:hover {
 }
 
 
+/*--------------------------------------------------------------
+# Header SOBRE
+--------------------------------------------------------------*/
+#header_sobre {
+
+  background: #fff;
+  transition: all 0.5s;
+  z-index: 997;
+  height: 115px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#header_sobre .logo {
+font-size: 20px;
+margin: 0;
+padding: 0;
+font-weight: 400;
+letter-spacing: 1px;
+}
+
+#header_sobre .logo a {
+color: #ec6a52;
+}
+
+#header_sobre .logo img {
+max-height: 900px;
+}
+
+#header_sobre.header-scrolled {
+background: rgba(0, 0, 0, 0.9);
+padding: 1px 0;
+}
+
+#container_navbar {
+height: auto;
+width: auto;
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -614,7 +651,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #fff;
+  color: #ec6a52;
   font-size: 16px;
   font-weight: 600;
   padding: 0;
@@ -640,7 +677,7 @@ a:hover {
   bottom: -6px;
   left: 0;
   width: 0;
-  background-color: #fff;
+  background-color: #ec6a52;
   visibility: hidden;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -656,7 +693,7 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #ec6a52;
 }
 
 .navbar .dropdown ul {
@@ -669,7 +706,7 @@ a:hover {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  /* background: #fff; */
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -682,7 +719,7 @@ a:hover {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #4e4e4e;
+  color: #ec6a52;
 }
 
 .navbar .dropdown ul a i {
@@ -939,8 +976,17 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.sect-pt4 {
+  padding-top: 1rem;
+}
+
+.about-mf .box-shadow-full {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .about-mf .about-img {
-  margin-bottom: 2rem;
+  margin-bottom: rem;
 }
 
 .about-mf .about-img img {
